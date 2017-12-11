@@ -1,0 +1,21 @@
+version: '3'
+services:
+  vpntunnel_socks_proxy:
+    container_name: vpntunnel-socks-proxy
+    build: ./
+    cap_add:
+      - NET_ADMIN
+    devices:
+      - /dev/net/tun
+    environment:
+      - REGION=sweden
+      - USERNAME=
+      - PASSWORD=
+    networks:
+      - vpntunnel_socks_proxy
+    ports:
+      - 1080:1080
+    restart: always
+
+networks:
+  vpntunnel_socks_proxy:
