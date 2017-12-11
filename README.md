@@ -1,13 +1,13 @@
-# A socks5 proxy via VPNTunnel.
+# A socks5 proxy via VPNTunnel
 
 A socks5 proxy via VPNTunnel (http://vpntunnel.com)[VPNTunnel]
 
-An [Alpine](https://alpinelinux.org/) Linux container running a socks5 proxy (using [dante](https://www.inet.no/dante/)) via Private Internet Access (OpenVPN).
+An [Alpine](https://alpinelinux.org/) Linux container running a socks5 proxy (using [dante](https://www.inet.no/dante/)) via VPNTunnel (OpenVPN)  
 
-Protect your browsing activities through an encrypted and anonymized VPN proxy!
+Protect your browsing activities through an encrypted and anonymized VPN proxy!  
 
-You will need a [VPNTunnel Account](https://vpntunnel.com) account.
-If you don't have one, you can [sign up here](https://vpntunnel.com/refer/tqd6nhtj7vzinv2a10zeixtwi2meo3wd) for one.
+You will need a [VPNTunnel Account](https://vpntunnel.com) account  
+If you don't have one, you can [sign up here](https://vpntunnel.com/refer/tqd6nhtj7vzinv2a10zeixtwi2meo3wd) for one  
 
 ## Basic usage
 
@@ -75,4 +75,4 @@ env ALL_PROXY=socks5h://localhost:1080 git clone https://github.com/some/one.git
 
 ## Credits
 
-- [OneOfOne/pia-socks-proxy](https://github.com/OneOfOne/pia-socks-proxy), used the openvpn config from his repository, but he uses pia rather than vpntunnel.
+- [OneOfOne/pia-socks-proxy](https://github.com/OneOfOne/pia-socks-proxy), used the openvpn config from his repository, but he uses pia rather than vpntunnel
