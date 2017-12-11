@@ -1,6 +1,6 @@
 # A socks5 proxy via VPNTunnel
 
-A socks5 proxy via VPNTunnel (http://vpntunnel.com)[VPNTunnel]
+A socks5 proxy via [VPNTunnel](http://vpntunnel.com)
 
 An [Alpine](https://alpinelinux.org/) Linux container running a socks5 proxy (using [dante](https://www.inet.no/dante/)) via VPNTunnel (OpenVPN)  
 
