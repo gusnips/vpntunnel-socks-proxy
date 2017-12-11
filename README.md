@@ -41,6 +41,15 @@ There is a list in app/ovpn/vpntunnel
 
 By default it's `sweden`, but you can set to somewhere like `United States - California`
 
+## Dependencies
+
+[Docker Compose](https://docs.docker.com/compose/)
+
+```bash
+apt install docker docker-compose
+```
+if not using debian/ubuntu, check [their install page for references](https://docs.docker.com/compose/install/)
+
 ## Using in firefox
 
 Open your [firefox preferences page](about:preferences), search for Network Proxy and click and settings
